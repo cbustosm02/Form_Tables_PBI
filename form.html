@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Horas Extras</title>
+<link rel="stylesheet" type="text/css" href="view.css" media="all">
+<script type="text/javascript" src="view.js"></script>
+
+</head>
+<body id="main_body" >
+	
+	<h2>Formulario a diligenciar</h2><br>
+	<div id="form_container">
+	
+		<img id="icon" src="table.png">
+		<a href="Tabla.php">Ver horas extras registradas y Tabla del servidor</a>
+		<form id="form_68996" class="appnitro"  method="post" action="php.php">
+
+					<div class="form_description">
+			<h2>Horas Extras</h2>
+			<p>Por favor diligencia la información a continuación para registrar las horas extras realizadas.</p>
+			
+		</div>	
+
+			<ul >
+			
+					<li id="li_10" >
+		<label class="description" for="element_10">Documento </label>
+		<div>
+			<input id="element_10" name="documento" class="element text medium" type="text" maxlength="255" required="true" value=""/> 
+		</div><p class="guidelines" id="guide_10"><small>Ingresa el número de documento de ciudadanía.</small></p> 
+		</li>		<li id="li_2" >
+		<label class="description" for="element_2">Nombre Completo </label>
+		<div>
+			<input id="element_2" name="nombre" class="element text large" type="text" maxlength="255" placeholder="Nombres y Apellidos" required="true" value=""/> 
+		</div> 
+		</li>		<li id="li_11" >
+		<label class="description" for="element_11">Fecha Inicio </label>
+		<div>
+			<input id="element_11" name="fechainicio" class="element text medium" type="date" required="true value=""/> 
+		</div><p class="guidelines" id="guide_11"><small>Ingresa la fecha de inicio de las extras.</small></p> 
+		</li>		<li id="li_12" >
+		<label class="description" for="element_12">Fecha Fin </label>
+		<div>
+			<input id="element_12" name="fechafin" class="element text medium" type="date"  required="true value=""/> 
+		</div><p class="guidelines" id="guide_12"><small>Ingresa la fecha en que finalizaste las extras.</small></p> 
+		</li>		<li id="li_13" >
+		<label class="description" for="element_13">Hora Inicio Turno </label>
+		<div>
+			<input id="element_13" name="horainicioturno" class="element text medium" type="time" required="true  value=""/> 
+		</div><p class="guidelines" id="guide_13"><small>Ingresa la hora de inicio de tu turno laboral.</small></p> 
+		</li>		<li id="li_14" >
+		<label class="description" for="element_14">Hora Fin Turno </label>
+		<div>
+			<input id="element_14" name="horafinturno" class="element text medium" type="time" required="true value=""/> 
+		</div><p class="guidelines" id="guide_14"><small>Ingresa la hora en que finaliza tu turno laboral.</small></p> 
+		</li>		<li id="li_15" >
+		<label class="description" for="element_15">Hora inicio hora extra </label>
+		<div>
+			<input id="element_15" name="horainicioextra" class="element text medium" type="time" required="true value=""/> 
+		</div><p class="guidelines" id="guide_15"><small>Ingresa la hora en que iniciaste a realizar la hora extra.</small></p> 
+		</li>		<li id="li_16" >
+		<label class="description" for="element_16">Hora Fin hora extra </label>
+		<div>
+			<input id="element_16" name="horafinextra" class="element text medium" type="time" required="true value=""/> 
+		</div><p class="guidelines" id="guide_16"><small>Ingresa la hora en que finalizaste a realizar la hora extra.</small></p> 
+		</li>		<li id="li_17" >
+		<label class="description" for="element_17">Motivo </label>
+		<div>
+			<textarea id="element_17" name="motivo" class="element textarea medium" placeholder="Ingresa el motivo que causó que realizaras horas extras."></textarea> 
+		</div>
+		</li>
+			
+					<li class="buttons">
+			    <input type="hidden" name="form_id" value="68996" />
+			    
+				<input id="saveForm" class="button_text" type="submit" name="submit" value="Enviar" />
+		</li>
+			</ul>
+		</form>	
+		
+	</div>
+	
+	</body>
+</html>
